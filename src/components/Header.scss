@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+
+
+.navbar{
+    height: 70px;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #e2e2ea solid;
+    
+
+.left{
+        align-items: center;
+        cursor: pointer;
+        display:inline;
+        
+         
+
+        ul{
+            list-style: none;
+            padding-right : 15px;
+            li{
+                display: inline-block;
+                vertical-align: middle;
+                padding: 4px;
+                
+                :hover{
+                    color: #e2e2ea;
+                    opacity: .5;
+                }
+
+            }
+             
+        }
+    
+       
+    .dazziiemain
+    {float: right;
+        padding: 15px;
+        vertical-align:middle;
+        
+        
+
+    }
+
+    .logo{
+        float: left;
+        vertical-align: middle;
+       
+        padding: 15px;
+        
+
+    }
+}
+
+.profile{
+
+    display: inline;
+    vertical-align:top;
+    cursor: pointer;
+    margin-right: 100px;
+
+        ul{
+            list-style: none;
+            display:flex;
+
+            // .smalltext
+            // {
+            //     font-size: 12px;
+            //     color: #e2e2ea;
+            //     padding-left: 10px;
+            // }
+           .navbar-names{
+            display: flex;
+            flex-direction: column;
+              
+
+           }
+
+
+            li{
+
+                display: inline-block;   
+                padding: 10px;
+                vertical-align: middle;  
+                :hover{
+                    opacity: 70%;
+                }   
+
+
+
+                .small{
+                    color: #e2e2ea;
+                    font-weight: 400;
+                    font-size: 12px;
+                  }
+
+
+             }
+        }
+    
+        
+    //    .notification
+    //    {
+        
+        
+        
+    //    }
+
+    //    .photo
+    //    {   
+        
+
+    //    }
+
+    //    .names
+    //    {
+        
+      
+    //    }
+
+   
+
+
+
+
+
+
+
+
+
+}
+}

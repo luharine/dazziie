@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+.navbar {
+  height: 70px;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #e2e2ea solid;
+}
+.navbar .left {
+  align-items: center;
+  cursor: pointer;
+  display: inline;
+}
+.navbar .left ul {
+  list-style: none;
+  padding-right: 15px;
+}
+.navbar .left ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 4px;
+}
+.navbar .left ul li :hover {
+  color: #e2e2ea;
+  opacity: 0.5;
+}
+.navbar .left .dazziiemain {
+  float: right;
+  padding: 15px;
+  vertical-align: middle;
+}
+.navbar .left .logo {
+  float: left;
+  vertical-align: middle;
+  padding: 15px;
+}
+.navbar .profile {
+  display: inline;
+  vertical-align: top;
+  cursor: pointer;
+  margin-right: 100px;
+}
+.navbar .profile ul {
+  list-style: none;
+  display: flex;
+}
+.navbar .profile ul .navbar-names {
+  display: flex;
+  flex-direction: column;
+}
+.navbar .profile ul li {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+}
+.navbar .profile ul li :hover {
+  opacity: 70%;
+}
+.navbar .profile ul li .small {
+  color: #e2e2ea;
+  font-weight: 400;
+  font-size: 12px;
+}/*# sourceMappingURL=Header.css.map */
