@@ -1,0 +1,43 @@
+.main {
+  height: 900px;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-right: 1.5px #e2e2ea solid;
+}
+.main .top ul {
+  list-style: none;
+}
+.main .top ul li {
+  list-style: none;
+  padding: 18px;
+  border: 20px;
+  width: 30px;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin: 2rem 0rem;
+}
+.main .top ul li :hover {
+  opacity: 0.5;
+}
+
+.bottom ul {
+  list-style: none;
+}
+.bottom ul li {
+  padding: 18px;
+  border: 20px;
+  width: 20px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.bottom ul li :hover {
+  color: #e2e2ea;
+  opacity: 0.5;
+}
+
+a.active {
+  padding: inherit;
+  border-radius: 1rem;
+}/*# sourceMappingURL=Sidebar.css.map */

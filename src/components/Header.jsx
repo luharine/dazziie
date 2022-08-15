@@ -2,8 +2,6 @@ import React from 'react'
 import notification from '../icons/NotificationBell.svg';
 import dazziielogo from '../icons/icon3.svg';
 import dazziielogo2 from '../icons/icon2.svg';
-
-
 import "./Header.css";
 
 
