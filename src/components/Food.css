@@ -1,21 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
 .outer {
-  height: 140x;
-  width: 200px;
+  height: 210px;
+  width: 260px;
   background-color: white;
   border: #92929d solid 1px;
-  border-radius: 0.4rem;
+  border-radius: 7px;
   font-family: "Mulish", sans-serif;
-  position: absolute;
+  padding: 0;
 }
 .outer .image {
   background-color: #E2E2EA;
-  top: 4rem;
-  height: 130px;
-  width: 190px;
-  border-radius: 0.3rem;
-  align-items: center;
+  top: 4px;
+  left: 5px;
+  right: 5px;
+  height: 140px;
+  width: 250px;
+  border-radius: 7px;
+  position: relative;
 }
 .outer .price-outer {
-  text-align: left;
+  padding: 8px;
+}
+.outer .price-outer .food {
+  position: relative;
+  left: 8px;
+  padding-top: 5px;
+}
+.outer .price-outer .price {
+  position: relative;
+  color: #42BDA1;
+  left: 8px;
 }/*# sourceMappingURL=Food.css.map */
