@@ -10,43 +10,19 @@ export default function Header() {
     <div className='navbar'>
 
         <div className='left'>
-
-        {/* <div className='logo'>
-            <img src={dazziielogo} alt="dazzlle-icon" />
-        </div>
-
-        <div className='dazziiemain'>
-            <h3 className='dazziie-name'>DAZZIIE</h3>
-        </div> */}
-
         <ul>
              <li><img src={dazziielogo} alt=""/></li>
              <li>DAZZIIE</li>
 
         </ul>
-
-
-            
         </div>
 
 
 
         <div className='profile'>
       
-        {/* <div className='notification'>
-            <img  src={notification} />
-        </div>
-
-        <div className='photo'>
-           <img src={dazziielogo2} />
-        </div>
-
-        <div className='names'>
-            <h3>Sumanto</h3>
-            <p>cashier</p>
-        </div>     */}
      
-        <ul >
+         <ul >
           <li> <img src={notification}    alt=""/></li>
           <li> <img  src={dazziielogo2}   alt=""/></li>
           <li>    <row className='navbar-names'> 
@@ -55,14 +31,7 @@ export default function Header() {
           </row></li>
           </ul>
           
-         
-         
-
-
-        
-        
-
-        </div>
+         </div>
 
 
     </div>

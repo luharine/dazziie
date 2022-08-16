@@ -1,0 +1,6 @@
+.Sidebar {
+  display: flex;
+}
+.Sidebar .Sidebar-child {
+  -ms-flex-align: end;
+}/*# sourceMappingURL=App.css.map */

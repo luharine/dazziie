@@ -2,31 +2,27 @@
 
 .main{
     
+  margin-right: auto;
+    
 
-    height:900px;
-    width:10%;
+    height: 100%;
+    
     display: flex;
    justify-content: space-between;
    flex-direction: column;
    border-right:1.5px #e2e2ea solid;
     .top
    {  
+      border:20px;
       ul
       {  
-        
+        padding-right: 20px;
         list-style: none;
 
-       
-           
-     
-     
        li
        {
-
-       
-        list-style: none;
-          
-        
+                 
+        text-align: center;
           
           padding: 18px; 
           border: 20px;
@@ -38,20 +34,9 @@
           
           :hover{
             opacity: .5;
-
-
-        
-          
-
-           
         }
         
-           
-           
-          
-          
-          
-        }
+      }
 
         // li .a{
         //      background-color: antiquewhite;

@@ -8,13 +8,14 @@ export default function Food() {
         <div className='image'></div>
 
         <div className='price-outer'>
-        <column>
-            <row>Sashimi</row>
-            <row className='price'> $22</row>         
-        </column>
+            
+        <div className='food'>  Sashimi</div>
+        <div className='price'> $22</div>
+
+
         </div>
             
             
-        </div>
+     </div>
   )
 }

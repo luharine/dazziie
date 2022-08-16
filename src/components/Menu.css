@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+.component {
+  background-color: #f7f7fc;
+  font-family: "Mulish", sans-serif;
+  padding: 30px;
+}
+.component .inner-component {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+.component .inner-component .search {
+  Display: grid;
+  place-items: center;
+}
+.component .inner-component .search input {
+  display: block;
+  padding: 10px;
+  text-align: left;
+  color: #707070;
+  width: 95%;
+  background-color: #f7f7fc;
+  align-self: center;
+  border-radius: 0.5rem;
+  border: 0px solid;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+}
+.component .inner-component .search input :focus, .component .inner-component .search input :active {
+  border-style: none;
+}
+.component .inner-component .categories ul {
+  border-bottom: #e2e2ea 2px solid;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.component .inner-component .categories ul li {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.component .inner-component .categories ul li NavLink {
+  text-decoration: none;
+}
+.component .inner-component .cards-1 ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.component .inner-component .cards-1 ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.component .inner-component .cards-2 ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.component .inner-component .cards-2 ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.items-title {
+  position: relative;
+  left: 50px;
+}/*# sourceMappingURL=Menu.css.map */

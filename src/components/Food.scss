@@ -2,30 +2,46 @@
 
 .outer{
     
-    height:140x;
-    width:200px;
+    height: 210px;
+    width: 260px;
     background-color: white;
     border: #92929d solid 1px;
-    border-radius: .4rem;
+    border-radius: 7px;
     font-family: 'Mulish', sans-serif;
-    position:absolute;
-
-   .image{
-    background-color:#E2E2EA ;
-    top:4rem;
-    height:130px;
-    width:190px;
-    border-radius: .3rem;
-    align-items: center;
-
-   }
-   .price-outer
+    padding:0;
+    
+   
+   
+    
+   
+   .image
    {
-
-    text-align: left;
+    background-color:#E2E2EA ;
+    top:4px;
+    left: 5px;
+    right:5px;
+    height: 140px;
+    width: 250px;
+    border-radius: 7px;
+    
+    position: relative;
+    }
+    
+   .price-outer
+   {  
+      padding: 8px;
+    
+    .food{
+        position: relative;
+        left:8px;
+        padding-top: 5px;
+    }
+    
 
     .price{
-
+        position: relative;
+        color: #42BDA1;
+        left: 8px;
 
     }
 
