@@ -6,6 +6,7 @@ import {Route,Routes} from 'react-router-dom';
 import Food from './components/Food';
 import Menu from './components/Menu';
 import Table from './components/Table';
+import ItemsSold from './components/ItemsSold';
 import './App.css';
 
 
@@ -14,7 +15,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <div  className='Sidebar'>
       <Sidebar/>
       <div className='Sidebar-child'>
@@ -23,8 +24,8 @@ function App() {
          </Routes>
       
       </div>
-      </div>
-      {/* <Table/> */}
+      </div> */}
+      { <ItemsSold/>}
      
       
       
