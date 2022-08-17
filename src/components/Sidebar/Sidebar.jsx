@@ -54,7 +54,7 @@ export default function Sidebar() {
      <div className='bottom'>
         <ul>
         <NavLink style={NavLinkStyle} activeClassName="activeClass" to="/setting" className="tab">
-        <li><a className="btn" ><img src={setting} alt =""/></a></li>
+        <li><a href="/menu" className="btn" ><img src={setting} alt =""/></a></li>
       </NavLink>
         </ul>
      </div>
