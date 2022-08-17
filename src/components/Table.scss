@@ -3,25 +3,36 @@
 
 .outer1{
 
-      width: 100%;
+      
       border: none;
       font-family: 'Mulish', sans-serif;
       padding:30px;
       background-color: #ffffff;
-      height: fit-content;
+      height: 650px;
+      border-radius: 10px;
       
-      width: fit-content;
+      width: 700px;
+      position: relative;
+      left: 95px;
+
+      
       
   
 
     .inner{
         padding-top: 20px;
+        border-radius: 10px;
+        //padding: 10px;
+        position: relative;
+        left:-10px;
+        height: 580px;
            
         table{
             table-layout: fixed;
             border-collapse: collapse;
+            height:500px;
              
-             height: 100%;
+            
 
           tr{
           

@@ -3,7 +3,7 @@ import './Table.css';
 export default function Table() {
   return (
     <div className='outer1'>
-    <div style={{fontWeight:600}}>Latest Order</div>
+    <div style={{fontWeight:600}} className='latestorder'>Latest Order</div>
     <div className="inner">
        
       <table>

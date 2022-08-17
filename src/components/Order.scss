@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+.ordermaincontainer{
+    height:1000px;
+
+  background-color:#f7f7fc ;
+  width:1300px;
+
+.Order-container{ 
+    
+
+    padding: 15px;
+    background-color: #f7f7fc;
+    
+
+    ul{ 
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        left:-9px;
+        
+
+        li{
+            
+    
+.main{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:250px;
+    
+    border-radius: 10px;
+    height: fit-contents;
+    background-color: #ffffff;
+    //margin:30px;
+    color:#11142d;
+    
+
+
+    .item1
+    {
+
+        ul
+        {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            justify-content: space-between;
+            padding: 0px;
+
+            li
+            {
+                margin: 20px;
+               
+               
+                .ordercustomer
+                {   position:relative;
+                    top:-18px;
+                    left:3px;
+
+                    
+                }
+                .ordercount
+                {
+                    position: relative;
+                    bottom:-15px;
+                    left:3px;
+
+                }
+
+            }
+
+        }
+
+    }
+    .item2
+    {
+        
+         
+        ul
+        {
+
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+
+            li
+            {
+                margin: 20px;
+                
+
+                .arrow
+                { 
+                    position: relative;
+                    top:-14px;
+                    right:-10px;
+                    color: red;
+
+                }
+                .profit-percentage
+                {
+                     position:relative;
+                     bottom: -14px;
+                     color:red;
+                }
+
+            }
+
+        }
+    }
+}
+}
+
+
+}
+
+}
+}
+
+ .table-order-items
+ {
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: relative;
+   left:-50px;
+   
+
+    
+ }
+
+

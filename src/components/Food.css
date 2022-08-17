@@ -25,6 +25,7 @@
   position: relative;
   left: 8px;
   padding-top: 5px;
+  font-weight: 600;
 }
 .outer .price-outer .price {
   position: relative;

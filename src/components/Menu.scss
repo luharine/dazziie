@@ -4,6 +4,7 @@
     background-color: #f7f7fc;
     font-family: "Mulish", sans-serif;
     padding: 30px;
+    scroll-behavior: smooth;
     
 
     .inner-component{
@@ -56,6 +57,7 @@
         li{
             display:inline-block;
             padding-bottom: 10px;
+            font-weight: 600;
             
             
              NavLink{

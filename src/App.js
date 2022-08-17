@@ -7,6 +7,7 @@ import Food from './components/Food';
 import Menu from './components/Menu';
 import Table from './components/Table';
 import ItemsSold from './components/ItemsSold';
+import Order from './components/Order';
 import './App.css';
 
 
@@ -15,17 +16,21 @@ import './App.css';
 function App() {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <div  className='Sidebar'>
       <Sidebar/>
       <div className='Sidebar-child'>
        <Routes > 
         <Route path='/menu' element={<Menu/>} />
+        <Route path='/order' element={<Order/>} />
          </Routes>
       
       </div>
-      </div> */}
-      { <ItemsSold/>}
+      </div>
+
+      
+      
+      
      
       
       

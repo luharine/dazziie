@@ -26,7 +26,7 @@ export default function Header() {
           <li> <img src={notification}    alt=""/></li>
           <li> <img  src={dazziielogo2}   alt=""/></li>
           <li>    <row className='navbar-names'> 
-          <column className='large'>SUMANTO</column>
+          <column className='large'>Sumanto</column>
           <column className='small'>cashier</column>
           </row></li>
           </ul>
