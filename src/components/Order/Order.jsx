@@ -1,7 +1,7 @@
 import React from 'react';
 import './Order.css';
-import Table from './Table.jsx';
-import ItemsSold from './ItemsSold.jsx';
+import Table from '../Table/Table';
+import ItemsSold from '../ItemsSold/ItemsSold';
 
 export default function Order({props}) {
   return (

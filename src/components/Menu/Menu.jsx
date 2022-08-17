@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import Food from './Food';
+import Food from '../Food/Food';
 import './Menu.css';
 
 export default function Menu() {

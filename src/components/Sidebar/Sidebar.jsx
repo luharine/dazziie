@@ -1,11 +1,11 @@
 import React from 'react'
-import menu from '../icons/menu.svg';
-import orders from '../icons/orders.svg';
-import customer from '../icons/customer.svg';
-import package1 from '../icons/Package.svg';
-import coupon from '../icons/coupon.svg';
-import employee from '../icons/user.svg';
-import setting from '../icons/seettings.svg';
+import menu from '../../icons/menu.svg';
+import orders from '../../icons/orders.svg';
+import customer from '../../icons/customer.svg';
+import package1 from '../../icons/Package.svg';
+import coupon from '../../icons/coupon.svg';
+import employee from '../../icons/user.svg';
+import setting from '../../icons/seettings.svg';
 import {NavLink} from 'react-router-dom';
 import './Sidebar.css';
 
