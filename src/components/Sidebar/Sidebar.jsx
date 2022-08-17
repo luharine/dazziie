@@ -30,57 +30,27 @@ export default function Sidebar() {
 <ul>
       
       
-        <li><NavLink style={NavLinkStyle}  exact to="/menu" ><a> <img src={menu} alt =""/> </a></NavLink></li>
+        <li><NavLink style={NavLinkStyle}  exact to="/menu" ><a href='/menu'> <img src={menu} alt =""/> </a></NavLink></li>
       
       
-        <li><NavLink style={NavLinkStyle}  to="/order" > <a><img src={orders} alt =""/></a> </NavLink></li>
+        <li><NavLink style={NavLinkStyle}  to="/order" > <a   href='/order'><img src={orders} alt =""/></a> </NavLink></li>
      
      
-        <li> <NavLink style={NavLinkStyle} to="/customer" ><a ><img src={customer} alt =""/></a> </NavLink></li>
+        <li> <NavLink style={NavLinkStyle} to="/customer" ><a  href='/customer' ><img src={customer} alt =""/></a> </NavLink></li>
      
       
-        <li><NavLink style={NavLinkStyle}  to="/edit" ><a ><img src={package1} alt =""/></a></NavLink></li>
+        <li><NavLink style={NavLinkStyle}  to="/edit" ><a  href='/edit'><img src={package1} alt =""/></a></NavLink></li>
       
     
-        <li><NavLink style={NavLinkStyle}  to="/coupon"><a><img src={coupon} alt =""/></a></NavLink></li>
+        <li><NavLink style={NavLinkStyle}  to="/coupon"><a  href='/coupon'><img src={coupon} alt =""/></a></NavLink></li>
       
 
      
-        <li> <NavLink style={NavLinkStyle}  to="/employee" ><a className="btn" ><img src={employee} alt =""/></a>  </NavLink></li>
+        <li> <NavLink style={NavLinkStyle}  to="/employee" ><a  href='/employee' className="btn" ><img src={employee} alt =""/></a>  </NavLink></li>
       
     </ul>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-        {/* <div className='top' id='top'>
-     <ul>
-        <li  ><a className="btn active" href='#'> <img src={menu} alt =""/> </a></li> 
-        <li><a className="btn" href='#'><img src={orders} alt =""/></a></li>
-        <li><a className="btn" href='#'><img src={customer} alt =""/></a></li>
-        <li><a className="btn" href='#'><img src={package1} alt =""/></a></li>
-        <li><a className="btn" href='#'><img src={coupon} alt =""/></a></li>
-        <li><a className="btn" href='#'><img src={employee} alt =""/></a></li>
-       
-        
-     </ul>
-     </div>
-
-
-     <div className='bottom'>
-        <ul>
-        <li><img src={setting} alt =""/></li>
-        </ul>
-     </div> */}
      <div className='bottom'>
         <ul>
         <NavLink style={NavLinkStyle} activeClassName="activeClass" to="/setting" className="tab">
