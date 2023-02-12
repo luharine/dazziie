@@ -4,4 +4,5 @@
 .Sidebar .Sidebar-child {
   -ms-flex-align: end;
   justify-content: space-between;
+  width: auto;
 }/*# sourceMappingURL=App.css.map */
