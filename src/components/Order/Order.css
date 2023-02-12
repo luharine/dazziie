@@ -2,7 +2,6 @@
 .ordermaincontainer {
   height: 1000px;
   background-color: #f7f7fc;
-  width: 110%;
 }
 .ordermaincontainer .Order-container {
   padding: 15px;
