@@ -2,7 +2,6 @@
   display: flex;
 }
 .Sidebar .Sidebar-child {
-  background-color: #f7f7fc;
   -ms-flex-align: end;
   justify-content: space-between;
 }/*# sourceMappingURL=App.css.map */
