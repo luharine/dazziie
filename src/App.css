@@ -1,7 +1,13 @@
 .Sidebar {
   display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .Sidebar .Sidebar-child {
   -ms-flex-align: end;
   justify-content: space-between;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=App.css.map */

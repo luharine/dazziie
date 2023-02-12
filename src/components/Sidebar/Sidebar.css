@@ -18,9 +18,9 @@
   padding: 18px;
   border: 20px;
   width: 30px;
-  border-radius: 1rem;
+  border-radius: 1px;
   cursor: pointer;
-  margin: 2rem 0rem;
+  margin: 2px 0px;
 }
 .main .top ul li :hover {
   opacity: 0.5;
@@ -33,7 +33,7 @@
   padding: 18px;
   border: 20px;
   width: 20px;
-  border-radius: 1rem;
+  border-radius: 1px;
   cursor: pointer;
 }
 .bottom ul li :hover {
